@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-page{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.post-page{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    cursor: pointer;
+}
+
+.post-author{
+    display: flex;
+}
+
+.post-author-info h4, .post-author-info h5{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+
+.post-user{
+    position: relative;
+}
+
+.post-user-options{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.show-more a{
+    text-decoration: none;
+    color: orange;
+}
+
+.post-content{
+    height: 500px !important;
+    overflow: hidden;
+}
+
+
+.profile-content{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.active{
+    border-bottom: 5px solid orange;
+    border-radius: 3px;
+}
+
+.profile-options{
+    margin: 5rem;
+    margin-bottom: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-options a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.profile-name{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-profile-information{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+
+.profile-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.user-name, .user-email, .post-title{
+    cursor: pointer;
+}
+
+.section-profile{
+    padding-top: 1rem;
+}
+
+.card-profile{
+    height: 400px;
+}
+
+form{
+    display: flex;
+    flex: 1;
+}
+
+.show{
+    height: 100% !important;
+}
+ 
